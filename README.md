@@ -92,6 +92,9 @@ The dataset contains synthetic crime records with the following fields:
 
 ---
 
+## DAX Measures Used
+Total Cases = COUNT(Case_ID)
+
 Recovered Cases =
 CALCULATE(
     COUNT(Status),
@@ -99,10 +102,6 @@ CALCULATE(
 )
 
 Total Loss = SUM(Estimated_Value_INR)
-
-## DAX Measures Used
-```DAX
-Total Cases = COUNT(Case_ID)
 
 Author
 
