@@ -1,4 +1,5 @@
 # Power-Bi-Dashboard
+
 # Chain Snatching Crime Analysis using Power BI
 
 ## Project Overview
@@ -99,10 +100,10 @@ CALCULATE(
 
 Total Loss = SUM(Estimated_Value_INR)
 
-Author
-
-Swetha
-
 ## DAX Measures Used
 ```DAX
 Total Cases = COUNT(Case_ID)
+
+Author
+
+Swetha
